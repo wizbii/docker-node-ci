@@ -8,3 +8,5 @@ RUN apt-get update && \
      libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 \
      libnss3 \
     && rm -rf /var/lib/apt/lists/*
+    
+RUN npm install -g yarn
